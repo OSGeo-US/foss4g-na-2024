@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/foss4g-na-2024",
   siteMetadata: {
     title: `FOSS4G NA St. Louis 2024`,
     description: `An Open Source Geospatial Technology Conference`,
