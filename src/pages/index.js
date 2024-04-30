@@ -10,7 +10,7 @@ const IndexPage = () => (
     <section className="py-5 text-center container">
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
-          <StaticImage
+          <StaticImage``
             src="../images/square_logo_foss4gna_stl_2024.png"
             width={300}
             quality={95}
@@ -19,7 +19,7 @@ const IndexPage = () => (
             className="img-fluid"
           />
           <h1 className="fw-light">September 9 - 11</h1>
-          <p className="lead text-muted">Scaling Geospatial into the future</p>
+          <p className="lead text-muted">Scaling Geospatial into the Future</p>
           <p>
             FOSS4G North America is the premier open geospatial technology and
             business conference with a vibrant and welcoming atmosphere for
