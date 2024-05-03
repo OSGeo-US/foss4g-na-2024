@@ -27,6 +27,7 @@ const IndexPage = () => (
             year's conference will be held at the Hyatt Regency St. Louis At The
             Arch. The conference dates are September 9th  through 11th.
           </p>
+              <p>Mor information coming soon.</p>
         </div>
       </div>
       <div className="row">
