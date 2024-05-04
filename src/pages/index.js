@@ -31,9 +31,6 @@ const IndexPage = () => (
                 FOSS4G North America is the premier open geospatial technology
                 and business conference with a vibrant and welcoming atmosphere
                 for technologists, end-users, academics, and decision makers.
-                This year's conference will be held at the Hyatt Regency St.
-                Louis At The Arch. The conference dates are September 9th
-                through 11th.
               </div>
               <div class="col-1"></div>
             </div>
