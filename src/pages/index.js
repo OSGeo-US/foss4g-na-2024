@@ -18,20 +18,73 @@ const IndexPage = () => (
             alt="FOSS4G NA 2024 Logo`"
             className="img-fluid"
           />
-          <h1 className="fw-light">September 9 - 11</h1>
           <p className="lead text-muted">Scaling Geospatial into the Future</p>
           <p>
-            FOSS4G North America is the premier open geospatial technology and
-            business conference with a vibrant and welcoming atmosphere for
-            technologists, end-users, academics, and decision makers. This
-            year's conference will be held at the Hyatt Regency St. Louis At The
-            Arch. The conference dates are September 9th  through 11th.
+            Sept 9-11
+            <br />
+            Hyatt Regency St. Louis At The Arch
           </p>
-              <p>Mor information coming soon.</p>
+          <div class="text-start">
+            <div class="row my-4 ">
+              <div class="col-1"></div>
+              <div class="col-10">
+                FOSS4G North America is the premier open geospatial technology
+                and business conference with a vibrant and welcoming atmosphere
+                for technologists, end-users, academics, and decision makers.
+                This year's conference will be held at the Hyatt Regency St.
+                Louis At The Arch. The conference dates are September 9th
+                through 11th.
+              </div>
+              <div class="col-1"></div>
+            </div>
+            <div class="row text-center">
+              <div class="col-12 font-weight-bold text-uppercase">
+                Dates of interest
+              </div>
+            </div>
+            <div class="row mt-1 ">
+              <div class="col-2"></div>
+              <div class="col-2">Soon</div>
+              <div class="col-8">Request for Proposals (RFP)</div>
+            </div>
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-2">6/2</div>
+              <div class="col-8">RFP Closes</div>
+            </div>
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-2 text-start">6/17</div>
+              <div class="col-8 text-start">Announce The Program</div>
+            </div>
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-2">7/1</div>
+              <div class="col-8">Open Registration</div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-2"></div>
+              <div class="col-2">9/9</div>
+              <div class="col-8">Workshop Day, B2B, Icebreaker</div>
+            </div>
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-2">9/10-11</div>
+              <div class="col-8">Main Session Days</div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-2"></div>
+              <div class="col-2">9/10</div>
+              <div class="col-8">Gala</div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="row">
-        <Link to="https://us19.list-manage.com/contact-form?u=8635900ee697ecbb8a595f92d&form_id=2a26281da80916604418c94616d3a1ac" className="btn btn-primary my-2">
+        <Link
+          to="https://us19.list-manage.com/contact-form?u=8635900ee697ecbb8a595f92d&form_id=2a26281da80916604418c94616d3a1ac"
+          className="btn btn-primary my-2"
+        >
           Join the mailing list for future announcements
         </Link>
       </div>
