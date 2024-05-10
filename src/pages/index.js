@@ -8,6 +8,14 @@ import { Seo } from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <section className="py-5 text-center container">
+      <div className="row">
+        <Link
+          to="https://talks.osgeo.org/foss4g-na-2024"
+          className="btn btn-danger my-2"
+        >
+          Call For Presentations
+        </Link>
+      </div>
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
           <StaticImage
@@ -83,6 +91,14 @@ const IndexPage = () => (
           className="btn btn-primary my-2"
         >
           Join the mailing list for future announcements
+        </Link>
+      </div>
+      <div className="row">
+        <Link
+          to="https://forms.gle/SqiZtPecLtKq6vrz9"
+          className="btn btn-secondary my-2"
+        >
+          Contact Us
         </Link>
       </div>
     </section>
