@@ -47,11 +47,6 @@ const IndexPage = () => (
                 Dates of interest
               </div>
             </div>
-            <div class="row mt-1 ">
-              <div class="col-2"></div>
-              <div class="col-2">Soon</div>
-              <div class="col-8">Request for Proposals (RFP)</div>
-            </div>
             <div class="row">
               <div class="col-2"></div>
               <div class="col-2">6/2</div>
