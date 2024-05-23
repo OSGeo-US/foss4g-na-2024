@@ -15,13 +15,15 @@ const AboutPage = () => (
           <div className="row my2">
             <div className="row my2">
               <div className="col-md-12 col-lg-4">
-                Participants at FOSS4G-NA St Louis 2024 conference are expected
-                to act respectfully toward others in accordance{" "}
+                Participants at the FOSS4G-NA St Louis 2024 conference are
+                expected to act respectfully toward others in accordance
                 <a href="http://2023.foss4gna.org/assets/pdf/foss4gna-2023-COC.pdf">
                   with our FOSS4G NA Code of Conduct
                 </a>
-                . This code of conduct will be expanded upon with more details
-                once the full program is available.
+                . Once the full program is available, this code of conduct will
+                be expanded upon with more details. Participants at FOSS4G-NA St
+                Louis 2024 conference are expected to act respectfully toward
+                others in accordance{" "}
               </div>
               <div className="col-md-12 col-lg-4 my-2">
                 FOSS4G is dedicated to providing a harassment-free conference
