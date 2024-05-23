@@ -26,13 +26,13 @@ const AboutPage = () => (
                 others in accordance{" "}
               </div>
               <div className="col-md-12 col-lg-4 my-2">
-                FOSS4G is dedicated to providing a harassment-free conference
+                OSS4G is dedicated to providing a harassment-free conference
                 experience for everyone, regardless of gender, gender identity
                 and expression, age, sexual orientation, disability, physical
-                appearance, body size, race, or religion, or technology choices.
-                We do not tolerate harassment of conference participants in any
+                appearance, body size, race, religion, or technology choices. We
+                do not tolerate harassment of conference participants in any
                 form. All communication should be appropriate for a professional
-                audience including people of many different backgrounds.
+                audience, including people of different backgrounds.{" "}
               </div>
               <div className="col-md-12 col-lg-4 my-2">
                 Sexual language and imagery is not appropriate for any
@@ -50,7 +50,7 @@ const AboutPage = () => (
         </div>
         <div className="row my-3">
           <h1 className="text-center text-uppercase bg-secondary text-white">
-            Accomodations
+            Accommodations
           </h1>
           <div className="row my2">
             <div className="col-md-12 col-lg-4">
@@ -58,8 +58,10 @@ const AboutPage = () => (
               <a href="https://www.hyatt.com/hyatt-regency/en-US/stlrs-hyatt-regency-st-louis-at-the-arch">
                 <strong>Hyatt Regency St. Louis at the Arch</strong>
               </a>
-              &nbsp; (315 Chestnut St, St. Louis, MO 63102) in downtown St.
-              Louis which offers easy access to the most desirable attractions.
+              &nbsp;(315 Chestnut St, St. Louis, MO 63102), which is located in
+              downtown St. Louis and offers easy access to the most desirable
+              attractions. Our conference group room rate is $189. It is
+              available until August 19th.
             </div>
             <div className="col-md-12 col-lg-4">
               Our conference group room rate is $189. It is available until
