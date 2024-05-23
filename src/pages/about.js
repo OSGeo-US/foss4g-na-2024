@@ -54,13 +54,13 @@ const AboutPage = () => (
           </h1>
           <div className="row my2">
             <div className="col-md-12 col-lg-4">
-              The host hotel for this year's FOSS4G NA meeting is the &nbsp;
+              The host hotel for this year's FOSS4G NA is the &nbsp;
               <a href="https://www.hyatt.com/hyatt-regency/en-US/stlrs-hyatt-regency-st-louis-at-the-arch">
                 <strong>Hyatt Regency St. Louis at the Arch</strong>
               </a>
-              &nbsp;(315 Chestnut St, St. Louis, MO 63102), which is located in
-              downtown St. Louis and offers easy access to the most desirable
-              attractions. Our conference group room rate is $189. It is
+              &nbsp;(315 Chestnut St, St. Louis, MO 63102), located in downtown
+              St. Louis and offering easy access to the most desirable
+              attractions. Our conference group room rate is $189, and it is
               available until August 19th.
             </div>
             <div className="col-md-12 col-lg-4">
