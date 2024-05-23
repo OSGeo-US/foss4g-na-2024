@@ -14,7 +14,7 @@ const AboutPage = () => (
           </h1>
           <div className="row my2">
             <div className="row my2">
-              <div className="col-md-12 col-lg-4">
+              <div className="col-md-12 col-lg-4 my-2">
                 Participants at the FOSS4G-NA St Louis 2024 conference are
                 expected to act respectfully toward others in accordance
                 <a href="http://2023.foss4gna.org/assets/pdf/foss4gna-2023-COC.pdf">
