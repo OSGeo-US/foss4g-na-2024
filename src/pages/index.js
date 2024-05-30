@@ -44,7 +44,7 @@ const IndexPage = () => (
               </div>
               <div className="col-1"></div>
             </div>
-            <div className="row mb-5">
+            <div className="row">
               <div className="col-1"></div>
               <div className="col-10">
                 Checkout some of last years sessions on{" "}
@@ -52,15 +52,15 @@ const IndexPage = () => (
                   Project Geospatial
                 </a>
               </div>
-              <div className="col-1"></div>
             </div>
             <div className="row">
               <div className="col-1"></div>
-              <div className="col-2 bg-secondary"></div>
-              <div className="col-8 bg-secondary fw-bolder text-uppercase text-white">
+              <div
+                className="col-10 fw-bold text-uppercase text-secondary mb-3 mt-5
+               text-center"
+              >
                 Dates of interest
               </div>
-              <div className="col-1"></div>
             </div>
             <div className="row">
               <div className="col-1"></div>
