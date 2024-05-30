@@ -13,7 +13,7 @@ const IndexPage = () => (
           href="https://talks.osgeo.org/foss4g-na-2024"
           className="btn btn-danger my-2"
         >
-          Call For Presentations
+          The Call For Presentations is Open! Click Here to Learn More!
         </a>
       </div>
       <div className="row py-lg-5">
@@ -108,7 +108,7 @@ const IndexPage = () => (
           href="https://forms.gle/SqiZtPecLtKq6vrz9"
           className="btn btn-secondary my-2"
         >
-          Contact Us
+          Click Here to Contact Us
         </a>
       </div>
     </section>
