@@ -9,14 +9,17 @@ const IndexPage = () => (
   <Layout>
     <section className="py-5 text-center container">
       <div className="row">
-        <a
-          href="https://talks.osgeo.org/foss4g-na-2024"
-          className="btn btn-danger my-2"
-        >
-          The Call For Presentations is Open! Click Here to Learn More!
-        </a>
+        <p>
+          <a
+            href="https://talks.osgeo.org/foss4g-na-2024"
+            className="btn btn-danger float"
+          >
+            The Call For Presentations is Open! <br />
+            Click Here to Learn More!
+          </a>
+        </p>
       </div>
-      <div className="row py-lg-5">
+      <div className="row py-lg-2">
         <div className="col-lg-6 col-md-8 mx-auto">
           <StaticImage
             src="../images/square_logo_foss4gna_stl_2024.png"
@@ -53,63 +56,57 @@ const IndexPage = () => (
                 </a>
               </div>
             </div>
-            <div className="row">
-              <div className="col-1"></div>
-              <div
-                className="col-10 fw-bold text-uppercase text-secondary mb-3 mt-5
-               text-center"
-              >
+            <div className="row  justify-content-center">
+              <div className="col-7 fw-bold text-uppercase text-center text-secondary my-3">
                 Dates of interest
               </div>
             </div>
-            <div className="row">
-              <div className="col-1"></div>
-              <div className="col-2">6/2</div>
-              <div className="col-8">RFP Closes</div>
+            <div className="row  justify-content-center">
+              <div className="col-2 border">6/2</div>
+              <div className="col-5 border">RFP Closes</div>
             </div>
-            <div className="row">
-              <div className="col-1"></div>
-              <div className="col-2 text-start">6/17</div>
-              <div className="col-8 text-start">Announce The Program</div>
+            <div className="row  justify-content-center">
+              <div className="col-2  border">6/17</div>
+              <div className="col-5  border">Announce The Program</div>
             </div>
-            <div className="row">
-              <div className="col-1"></div>
-              <div className="col-2">7/1</div>
-              <div className="col-8">Open Registration</div>
+            <div className="row  justify-content-center">
+              <div className="col-2 border">7/1</div>
+              <div className="col-5 border">Open Registration</div>
             </div>
-            <div className="row mt-2">
-              <div className="col-1"></div>
-              <div className="col-2">9/9</div>
-              <div className="col-8">Workshop Day, B2B, Icebreaker</div>
+            <div className="row  justify-content-center">
+              <div className="col-2 border">9/9</div>
+              <div className="col-5 border">Workshop Day, B2B, Icebreaker</div>
             </div>
-            <div className="row">
-              <div className="col-1"></div>
-              <div className="col-2">9/10-11</div>
-              <div className="col-8">Main Session Days</div>
+            <div className="row  justify-content-center">
+              <div className="col-2 border">9/10-9/11</div>
+              <div className="col-5 border">Main Session Days</div>
             </div>
-            <div className="row mb-4">
-              <div className="col-1"></div>
-              <div className="col-2">9/10</div>
-              <div className="col-8">Gala</div>
+            <div className="row  justify-content-center">
+              <div className="col-2 border">9/10</div>
+              <div className="col-5 border">Gala</div>
             </div>
           </div>
         </div>
       </div>
       <div className="row">
-        <a
-          href="https://us19.list-manage.com/contact-form?u=8635900ee697ecbb8a595f92d&form_id=2a26281da80916604418c94616d3a1ac"
-          className="btn btn-primary my-2"
-        >
-          Join the mailing list for future announcements
-        </a>
+        <p>
+          <a
+            href="https://us19.list-manage.com/contact-form?u=8635900ee697ecbb8a595f92d&form_id=2a26281da80916604418c94616d3a1ac"
+            className="btn btn-primary mt-3 mb-2"
+          >
+            Join the mailing list for future announcements
+          </a>
+        </p>
       </div>
       <div className="row">
-        <a
-          href="https://forms.gle/SqiZtPecLtKq6vrz9"
-          className="btn btn-secondary my-2"
-        >
-          Click Here to Contact Us
-        </a>
+        <p>
+          <a
+            href="https://forms.gle/SqiZtPecLtKq6vrz9"
+            className="btn btn-secondary mb-2"
+          >
+            Click Here to Contact Us
+          </a>
+        </p>
       </div>
     </section>
   </Layout>
