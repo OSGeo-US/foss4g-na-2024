@@ -37,6 +37,8 @@ const IndexPage = () => (
               Hyatt Regency St. Louis At The Arch
             </a>
           </p>
+          </div>
+          <div className="col-lg-6 col-md-8 mx-auto">
           <div className="text-start">
             <div className="row my-3">
               <div className="col-1"></div>
@@ -107,6 +109,10 @@ const IndexPage = () => (
             Click Here to Contact Us
           </a>
         </p>
+      </div>
+      <div className="row">
+      <p className="lead text-muted">Sponsors</p>
+      <p>Coming soon!</p>
       </div>
     </section>
   </Layout>
