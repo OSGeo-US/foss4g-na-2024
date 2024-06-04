@@ -37,6 +37,9 @@ const Navbar = ({ siteTitle }) => {
             <li className="nav-item">
               <ExactNavLink to="/about">About</ExactNavLink>
             </li>
+            <li>
+              <ExactNavLink to="/sponsor">Sponsor</ExactNavLink>
+            </li>
           </ul>
         </div>
       </div>
