@@ -1,5 +1,5 @@
 import * as React from "react"
-// import { Link } from "gatsby";
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -114,8 +114,13 @@ const IndexPage = () => (
         </p>
       </div>
       <div className="row">
-        <p className="lead text-muted">Sponsors</p>
-        <p>Coming soon!</p>
+        <h1 className="text-center text-uppercase text-secondary fw-bold my-4">
+          Sponsors
+        </h1>
+        <p>
+          Learn more about contributing to this conference aas a sponsor on our{" "}
+          <Link to="/sponsor/">Sponsor Page</Link>.
+        </p>
       </div>
     </section>
   </Layout>
