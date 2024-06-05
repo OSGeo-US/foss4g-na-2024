@@ -1,9 +1,9 @@
-import * as React from "react";
+import * as React from "react"
 // import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout";
-import { Seo } from "../components/seo";
+import Layout from "../components/layout"
+import { Seo } from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
@@ -136,7 +136,7 @@ const AboutPage = () => (
           <div className="row my2">
             <div className="col-md-12 col-lg-4">
               <p>
-                The FOSS4G NA 2023 is going to be held at{" "}
+                The FOSS4G NA 2024 is going to be held at{" "}
                 <a href="https://www.hyatt.com/hyatt-regency/en-US/stlrs-hyatt-regency-st-louis-at-the-arch">
                   <strong>Hyatt Regency St. Louis at the Arch</strong>
                 </a>
@@ -163,8 +163,8 @@ const AboutPage = () => (
       </div>
     </div>
   </Layout>
-);
+)
 
-export default AboutPage;
+export default AboutPage
 
-export const Head = () => <Seo title="About FOSS4GNA St. Louis 2024" />;
+export const Head = () => <Seo title="About FOSS4GNA St. Louis 2024" />
