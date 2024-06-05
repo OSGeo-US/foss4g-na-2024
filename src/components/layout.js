@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
 import "./layout.scss"
+import CookieConsent from "react-cookie-consent"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -18,10 +19,12 @@ const Layout = ({ children }) => {
 
   return (
     <div className="container-fluid p-0">
+      <CookieConsent>
+        Our website uses cookies to analyze how the site is used and to ensure
+        your experience is consistent between visits.
+      </CookieConsent>
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
     </div>
   )
 }
