@@ -6,6 +6,9 @@ import Navbar from "./navbar"
 import "./layout.scss"
 import CookieConsent from "react-cookie-consent"
 
+import ReactGA from "react-ga4"
+ReactGA.initialize("G-JJLVP1J4JV")
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
