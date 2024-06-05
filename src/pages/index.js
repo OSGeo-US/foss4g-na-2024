@@ -1,9 +1,9 @@
-import * as React from "react";
+import * as React from "react"
 // import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout";
-import { Seo } from "../components/seo";
+import Layout from "../components/layout"
+import { Seo } from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
@@ -14,7 +14,10 @@ const IndexPage = () => (
             href="https://talks.osgeo.org/foss4g-na-2024"
             className="btn btn-danger float"
           >
-            The Call For Presentations is Open! <br />
+            The Call For Presentations is Open!
+            <br />
+            Closing June 9th
+            <br />
             Click Here to Learn More!
           </a>
         </p>
@@ -37,8 +40,8 @@ const IndexPage = () => (
               Hyatt Regency St. Louis At The Arch
             </a>
           </p>
-          </div>
-          <div className="col-lg-6 col-md-8 mx-auto">
+        </div>
+        <div className="col-lg-6 col-md-8 mx-auto">
           <div className="text-start">
             <div className="row my-3">
               <div className="col-1"></div>
@@ -64,27 +67,27 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="row  justify-content-center">
-              <div className="col-2 border">6/2</div>
-              <div className="col-5 border">RFP Closes</div>
+              <div className="col-3 border">6/9 (Midnight CST)</div>
+              <div className="col-5 border">RFP Closes at </div>
             </div>
             <div className="row  justify-content-center">
-              <div className="col-2  border">6/17</div>
+              <div className="col-3 border">6/17</div>
               <div className="col-5  border">Announce The Program</div>
             </div>
             <div className="row  justify-content-center">
-              <div className="col-2 border">7/1</div>
+              <div className="col-3 border">7/1</div>
               <div className="col-5 border">Open Registration</div>
             </div>
             <div className="row  justify-content-center">
-              <div className="col-2 border">9/9</div>
+              <div className="col-3 border">9/9</div>
               <div className="col-5 border">Workshop Day, B2B, Icebreaker</div>
             </div>
             <div className="row  justify-content-center">
-              <div className="col-2 border">9/10-9/11</div>
+              <div className="col-3 border">9/10-9/11</div>
               <div className="col-5 border">Main Session Days</div>
             </div>
             <div className="row  justify-content-center">
-              <div className="col-2 border">9/10</div>
+              <div className="col-3 border">9/10</div>
               <div className="col-5 border">Gala</div>
             </div>
           </div>
@@ -111,13 +114,13 @@ const IndexPage = () => (
         </p>
       </div>
       <div className="row">
-      <p className="lead text-muted">Sponsors</p>
-      <p>Coming soon!</p>
+        <p className="lead text-muted">Sponsors</p>
+        <p>Coming soon!</p>
       </div>
     </section>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage
 
-export const Head = () => <Seo />;
+export const Head = () => <Seo />
